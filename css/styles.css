@@ -5,17 +5,30 @@
 # - #2B303A
 */
 
-body {
+/* body {
     background: #BAC1B8;
     width: 70%;
     margin: 0 auto;
-}
+} */
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {   
     font-family: "Inter", serif; 
     background: #58A4B0;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text {
+    margin-left: 20px;
+    display: block;
+}
+h1, h2, p {
+    margin: 0;
 }
 
 main {
@@ -39,7 +52,8 @@ a {
 }
 
 img {
-    display: inline-block;
+    float: left;
+    /* display: inline-block; */
 }
 
 /* Work Experience
