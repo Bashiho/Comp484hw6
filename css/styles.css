@@ -38,6 +38,9 @@ a {
     color: #99FFB8;
 }
 
+img {
+    display: inline-block;
+}
 
 /* Work Experience
 ------------------------------------*/
